@@ -1,7 +1,7 @@
-student = {
+window.student = {
   name: "John"
 };
 
-function getKeys(obj) {
+window.getKeys = function(obj) {
   return Object.keys(obj);
-}
+};
